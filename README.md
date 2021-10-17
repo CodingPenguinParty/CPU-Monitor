@@ -1,9 +1,11 @@
-# CPU-Monitor
+# CPU monitor
+
+[![Build](https://github.com/CodingPenguinParty/CPU-Monitor/actions/workflows/cmake-build.yml/badge.svg)](https://github.com/CodingPenguinParty/CPU-Monitor/actions/workflows/cmake-build.yml)
 
 ## Задание
 
 Написать кроссплатформенное приложение на C++ (сначала на Linux) с иcпользованием графического API **OpenGL**, которое выводит на экран графики загруженности CPU (общий и по ядрам).\
-Как пример интерфейса можно использовать стандартный Task Manager Windows 10.
+Как пример интерфейса можно использовать стандартный *Task Manager Windows 10*.
 
 Дополнительные требования:
 - На графике используются разные цвета в зависимости от степени нагрузки (например, диапазон пиковой загрузки - красный);
